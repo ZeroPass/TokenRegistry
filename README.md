@@ -7,12 +7,12 @@ Repositories submitted \(will add them more later!\);
 • Smartcontract  
 [https://github.com/ZeroPass/Token-registry-smart-contract](https://github.com/ZeroPass/Token-registry-smart-contract)
 
-• nfc sdk/android app;  
--still researching, check later
+• nfc sdk/android app; \(trid-token registry id\)  
+[https://github.com/ZeroPass/Android-trid](https://github.com/ZeroPass/Android-trid)
 
 ---
 
-### Solution
+### Solution:
 
 ### 
 
