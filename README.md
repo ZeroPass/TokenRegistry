@@ -14,13 +14,7 @@ Repositories submitted \(will add them more later!\);
 
 
 
-
-
-
-
-
-
-### **Theme: **
+### Theme:
 
 **Regulation that doesn't leave people and technology behind a closed door.**  
 
@@ -33,7 +27,7 @@ Bearer instruments and shares are banned/restricted in most countries, main reas
 Banks do not want to serve crowdfunding \(ICO\) efforts fearing regulatory clampdown, thus leaving raised funds in perpetual limbo.  
 
 
-### **The challenge:**
+### The challenge:
 
 Turn bearer instruments back to registered ones \(via retroactive identification / KYC\), in a way that wouldn’t stifle innovation or discourage the public to participate in the value distribution of these exciting new systems.
 
