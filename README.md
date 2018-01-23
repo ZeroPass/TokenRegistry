@@ -34,6 +34,8 @@ Banks do not want to serve crowdfunding \(ICO\) efforts fearing regulatory clamp
 
 Turn bearer instruments back to registered ones \(via retroactive identification / KYC\), in a way that wouldn’t stifle innovation or discourage the public to participate in the value distribution of these exciting new systems.
 
+---
+
 ### The Solution:
 
 Android app, Passport with chip, smartcontract \(extended erc20\).
@@ -50,7 +52,7 @@ No passwords/usarnames/, just touch and go.
 
 If your phone lacks NFC, you can use your friends phone, this cant be hacked!
 
-
+---
 
 #### Alternate uses of the Token Registry solution
 
