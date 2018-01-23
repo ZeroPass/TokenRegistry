@@ -14,8 +14,8 @@ We are hacking the passport hardware security module \(active authentication\), 
 
 We send the hashed ethereum account address to the passport and receive back signature.
 
-Then we are using a smartcontract to check the validity of that signature, and we write attestation of our ethereum account to the smarcontract itself. Account is the standard the erc20 style contract with some additonal functions\).  
-  
+Then we are using a smartcontract to check the validity of that signature, and we write attestation of our ethereum account to the smarcontract itself. Account is the standard the erc20 style contract with some additonal functions\).
+
 That if everything goes according to plan.
 
 ---
@@ -46,4 +46,8 @@ Whenever you want to secure/attest your ethereum account, you just;
 • take NFC enabled phone, and touch it with your passport
 
 You can use your friends phone, this cant be hacked!
+
+
+
+
 
