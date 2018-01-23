@@ -10,7 +10,8 @@ Repositories submitted \(will add them more later!\);
 • NFC SDK/android app; \(trid-token registry id\)  
 [https://github.com/ZeroPass/Android-trid](https://github.com/ZeroPass/Android-trid)
 
-We are hacking the passport hardware security module \(active authentication\), to provide us with valid signature on the passport itself \(the signature cant be spoofed, even if android phone  is compromised!\).
+We are hacking the passport hardware security module \(active authentication\), to provide us with valid signature on the passport itself \(the signature cant be spoofed, even if android phone  is compromised!\).  
+Documentation is nearly non-existent.
 
 We send the hashed Ethereum account address to the passport and receive back signature.
 
@@ -60,7 +61,7 @@ If your phone lacks NFC, you can use your friend's phone, this cant be hacked!
 
 ---
 
-#### Alternate uses of the Token Registry solution
+#### Alternate uses of this opensource solution
 
 • on-chain voting \(one Passport- one vote\)  
 • on-chain KYC \(know your customer\)  
