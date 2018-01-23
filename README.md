@@ -10,13 +10,13 @@ Repositories submitted \(will add them more later!\);
 • nfc sdk/android app; \(trid-token registry id\)  
 [https://github.com/ZeroPass/Android-trid](https://github.com/ZeroPass/Android-trid)
 
-We are hacking the passport hardware security module \(active authentication\), to provide us with valid signature on the passport itself \(the signature cant be spoofed, even if android is compromised!\). 
+We are hacking the passport hardware security module \(active authentication\), to provide us with valid signature on the passport itself \(the signature cant be spoofed, even if android is compromised!\).
 
 We send the hashed ethereum account address to the passport and receive back signature.
 
-Then we are using a smartcontract to check the validity of that signature, and we write attestation of our ethereum account to the smarcontract itself. Account is the standard the erc20 style contract with some additonal functions\).
-
-
+Then we are using a smartcontract to check the validity of that signature, and we write attestation of our ethereum account to the smarcontract itself. Account is the standard the erc20 style contract with some additonal functions\).  
+  
+That if everything goes according to plan.
 
 ---
 
@@ -34,18 +34,16 @@ Banks do not want to serve crowdfunding \(ICO\) efforts fearing regulatory clamp
 
 Turn bearer instruments back to registered ones \(via retroactive identification / KYC\), in a way that wouldn’t stifle innovation or discourage the public to participate in the value distribution of these exciting new systems.
 
-
-
 ### The Solution:
 
-Android app, Passport with chip, smartcontract \(extended erc20\).  
-  
+Android app, Passport with chip, smartcontract \(extended erc20\).
+
 Whenever you want to secure/attest your ethereum account, you just;  
 • Open the android app
 
 • Input/scan ethereum address
 
-• take NFC enabled phone, and touch it with your passport  
-  
+• take NFC enabled phone, and touch it with your passport
+
 You can use your friends phone, this cant be hacked!
 
