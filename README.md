@@ -49,5 +49,13 @@ You can use your friends phone, this cant be hacked!
 
 
 
+#### Alternate uses of the Token Registry solution
+
+• on-chain voting \(one Passport- one vote\)  
+• on-chain KYC \(know your customer\)  
+• "universal basic income -UBI" token distributions  
+• sybil protection  
+• blockchain oracle \(public\) attestations
+
 
 
