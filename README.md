@@ -18,6 +18,14 @@ Then we are using a smartcontract to check the validity of that signature, and w
 
 That if everything goes according to plan.
 
+
+
+---
+
+### how to install and run the code:
+
+/////to be added
+
 ---
 
 ### Theme:
@@ -62,6 +70,4 @@ If your phone lacks NFC, you can use your friends phone, this cant be hacked!
 • sybil protection  
 • blockchain oracle \(public\) attestations  
 • authentication
-
-
 
