@@ -7,14 +7,14 @@ Repositories submitted \(will add them more later!\);
 • Smartcontract  
 [https://github.com/ZeroPass/Token-registry-smart-contract](https://github.com/ZeroPass/Token-registry-smart-contract)
 
-• nfc sdk/android app; \(trid-token registry id\)  
+• NFC SDK/android app; \(trid-token registry id\)  
 [https://github.com/ZeroPass/Android-trid](https://github.com/ZeroPass/Android-trid)
 
 We are hacking the passport hardware security module \(active authentication\), to provide us with valid signature on the passport itself \(the signature cant be spoofed, even if android phone  is compromised!\).
 
-We send the hashed ethereum account address to the passport and receive back signature.
+We send the hashed Ethereum account address to the passport and receive back signature.
 
-Then we are using a smartcontract to check the validity of that signature, and we write attestation of our ethereum account to the smarcontract itself. Account is the standard the erc20 style contract with some additonal functions\).
+Then we are using a smartcontract to check the validity of that signature, and we write attestation of our ethereum account to the smarcontract itself. Account is the standard the ERC20 style contract with some additional functions\).
 
 That if everything goes according to plan.
 
@@ -56,7 +56,7 @@ Whenever you want to secure/attest your ethereum account, you just;
 
 No passwords/usarnames/, just touch and go.
 
-If your phone lacks NFC, you can use your friends phone, this cant be hacked!
+If your phone lacks NFC, you can use your friend's phone, this cant be hacked!
 
 ---
 
@@ -65,7 +65,7 @@ If your phone lacks NFC, you can use your friends phone, this cant be hacked!
 • on-chain voting \(one Passport- one vote\)  
 • on-chain KYC \(know your customer\)  
 • "universal basic income -UBI" token distributions  
-• sybil protection  
+• Sybil protection  
 • blockchain oracle \(public\) attestations  
 • authentication
 
