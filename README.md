@@ -40,19 +40,15 @@ Android app, Passport with chip, smartcontract \(extended erc20\).
 
 Whenever you want to secure/attest your ethereum account, you just;
 
-1.  Open the android app
-2.  Input/scan ethereum address
-3.  take NFC enabled phone, and touch it with your passport
+1. Open the android app
+2. Input/scan ethereum address
+3. take NFC enabled phone, and touch it with your passport
 
-
-
-##### Ease of use; 
+##### Ease of use;
 
 No passwords/usarnames/, just touch and go.
 
 If your phone lacks NFC, you can use your friends phone, this cant be hacked!
-
-
 
 
 
