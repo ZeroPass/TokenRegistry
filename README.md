@@ -38,14 +38,21 @@ Turn bearer instruments back to registered ones \(via retroactive identification
 
 Android app, Passport with chip, smartcontract \(extended erc20\).
 
-Whenever you want to secure/attest your ethereum account, you just;  
-• Open the android app
+Whenever you want to secure/attest your ethereum account, you just;
 
-• Input/scan ethereum address
+1.  Open the android app
+2.  Input/scan ethereum address
+3.  take NFC enabled phone, and touch it with your passport
 
-• take NFC enabled phone, and touch it with your passport
 
-You can use your friends phone, this cant be hacked!
+
+##### Ease of use; 
+
+No passwords/usarnames/, just touch and go.
+
+If your phone lacks NFC, you can use your friends phone, this cant be hacked!
+
+
 
 
 
@@ -55,7 +62,6 @@ You can use your friends phone, this cant be hacked!
 • on-chain KYC \(know your customer\)  
 • "universal basic income -UBI" token distributions  
 • sybil protection  
-• blockchain oracle \(public\) attestations
-
-
+• blockchain oracle \(public\) attestations  
+• authentication
 
