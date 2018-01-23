@@ -63,3 +63,5 @@ If your phone lacks NFC, you can use your friends phone, this cant be hacked!
 • blockchain oracle \(public\) attestations  
 • authentication
 
+
+
