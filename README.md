@@ -21,9 +21,33 @@ That if everything goes according to plan.
 
 ---
 
-### how to install and run the code:
+### How to install and run the code:
 
 /////to be added
+
+
+
+### How to use the proof of concept;
+
+**1.\)** Open the android app
+
+**2.\)** Type those 3 number groups in the app fields  \(we would implement camera scan if we had more time\)![](/assets/import.png)
+
+This is used to create the **BAC**  [https://en.wikipedia.org/wiki/Basic\_access\_control](https://en.wikipedia.org/wiki/Basic_access_control) negotiate a session key which is then used to encrypt communication.
+
+**3.\)** Touch the passport with nfc, that would sign the hash of ethereum public address 
+
+**4.\) **Copy the signed data and transfer it to the https://remix.ethereum.org/ \(we would implement an api if we had more time\)
+
+**5.\)** Send the transaction
+
+
+
+### If things break;
+
+We are sending the example passport data \(from our passport, precomputed\) to James. Its security risk, so we cant post it here, please check the slack. This data can then be imputed in the smart-contract directly.
+
+
 
 ---
 
@@ -61,7 +85,7 @@ If your phone lacks NFC, you can use your friend's phone, this cant be hacked!
 
 ---
 
-#### Alternate uses of this opensource solution
+### Alternate uses of this opensource solution
 
 • on-chain voting \(one Passport- one vote\)  
 • on-chain KYC \(know your customer\)  
@@ -69,4 +93,10 @@ If your phone lacks NFC, you can use your friend's phone, this cant be hacked!
 • Sybil protection  
 • blockchain oracle \(public\) attestations  
 • authentication
+
+---
+
+#### Future work
+
+
 
