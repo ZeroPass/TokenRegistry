@@ -4,7 +4,7 @@ FutureHack subbmission team[ ZeroPass](https://www.zeropass.io/)
 
 Repositories submitted
 
-• Just tools   
+• Just for tools \(trying to send array of HEX numbers... not really working, only takes ASCII\)    
 [https://github.com/ZeroPass/Web3Interface](https://github.com/ZeroPass/Web3Interface)
 
 • Smartcontract  
@@ -56,7 +56,9 @@ This is used to create the **BAC**  [https://en.wikipedia.org/wiki/Basic\_access
 
 this is all heavily experimental, opensource libraries are stubs with wrong information, docs are scarce and written for industry people. That was tough nut to crack in 2 days.
 
-We are sending the example passport data \(from our passport, precomputed\) to James. It’s a security risk, so we cannot post it here, so please check the Slack. This data can then be imputed into the smart-contract directly.
+Things we didn
+
+
 
 ---
 
