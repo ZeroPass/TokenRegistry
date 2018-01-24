@@ -81,11 +81,21 @@ Whenever you want to secure/attest your ethereum account, you just;
 2. Input/scan ethereum address
 3. take NFC enabled phone, and touch it with your passport
 
-##### Ease of use;
+#### Ease of use;
 
 Nothing to remember or write down \(passwords\), just scan with camera, then touch and go.
 
 If your phone lacks NFC, you can use your friend's phone, this cant be hacked!
+
+
+
+#### Implications of our soultion;
+
+You can secure your accounts with attestation and that restricts you to sending tokens only to other registered/attested account.
+
+You could also have a time limits on transactions that goes out of your country \(based on passport certification authority\).
+
+
 
 ---
 
