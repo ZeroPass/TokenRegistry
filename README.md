@@ -41,7 +41,7 @@ That if everything goes according to plan.
 
 **2.\)** Type those 3 number groups in the app fields  \(we would implement camera scan if we had more time\)![](/assets/import.png)
 
-This is used to create the **BAC**  [https://en.wikipedia.org/wiki/Basic\_access\_control](https://en.wikipedia.org/wiki/Basic_access_control) negotiate a session key which is then used to encrypt communication.
+This is used to create the **BAC**  [https://en.wikipedia.org/wiki/Basic\_access\_control](https://en.wikipedia.org/wiki/Basic_access_control) negotiate a session key which is then used to encrypt challenge response communication between phone and passport. 
 
 **3.\)** Touch the passport with nfc, that would sign the hash of ethereum public address
 
@@ -50,6 +50,8 @@ This is used to create the **BAC**  [https://en.wikipedia.org/wiki/Basic\_access
 **5.\)** Send the transaction
 
 ### If things break;
+
+this is all heavily experimental, opensource libraries are stubs with wrong information, docs are scarce and written for industry people. That was tough nut to crack in 2 days.
 
 We are sending the example passport data \(from our passport, precomputed\) to James. Its security risk, so we cant post it here, please check the slack. This data can then be imputed in the smart-contract directly.
 
@@ -87,15 +89,11 @@ Nothing to remember or write down \(passwords\), just scan with camera, then tou
 
 If your phone lacks NFC, you can use your friend's phone, this cant be hacked!
 
-
-
 #### Implications of our soultion;
 
 You can secure your accounts with attestation and that restricts you to sending tokens only to other registered/attested account.
 
 You could also have a time limits on transactions that goes out of your country \(based on passport certification authority\).
-
-
 
 ---
 
