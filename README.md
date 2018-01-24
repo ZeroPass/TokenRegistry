@@ -25,18 +25,15 @@ That if everything goes according to plan.
 
 **For android app;**
 
-• Use the newest android studio \(with Gradle\), 
+• Use the newest android studio \(with Gradle\),
 
 • download code from Github, and import it
 
 • build-it to the device.** **
 
-  
 **Smartcontract is deployed on;**
 
 [https://rinkeby.etherscan.io/address/0xee2ba50c1cbd227a035090d99dec587ae9efb3bc](https://rinkeby.etherscan.io/address/0xee2ba50c1cbd227a035090d99dec587ae9efb3bc)
-
-
 
 ### How to use the proof of concept;
 
@@ -54,9 +51,7 @@ This is used to create the **BAC**  [https://en.wikipedia.org/wiki/Basic\_access
 
 ### If things break;
 
-We are sending the example passport data \(from our passport, precomputed\) to James. Its security risk, so we cant post it here, please check the slack. This data can then be imputed in the smart-contract directly.  
-  
-
+We are sending the example passport data \(from our passport, precomputed\) to James. Its security risk, so we cant post it here, please check the slack. This data can then be imputed in the smart-contract directly.
 
 ---
 
@@ -88,7 +83,7 @@ Whenever you want to secure/attest your ethereum account, you just;
 
 ##### Ease of use;
 
-No passwords/usarnames/, just touch and go.
+Nothing to remember or write down \(passwords\), just scan with camera, then touch and go.
 
 If your phone lacks NFC, you can use your friend's phone, this cant be hacked!
 
