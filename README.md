@@ -77,7 +77,7 @@ Turn bearer instruments back to registered ones \(via retroactive identification
 
 Android app, Passport with chip, smartcontract \(extended erc20\).
 
-Whenever you want to secure/attest your ethereum account, you just;
+Whenever you want to secure/attest your Ethereum account, you just;
 
 1. Open the android app
 2. Input/scan ethereum address
@@ -87,13 +87,13 @@ Whenever you want to secure/attest your ethereum account, you just;
 
 Nothing to remember or write down \(passwords\), just scan with camera, then touch and go.
 
-If your phone lacks NFC, you can use your friend's phone, this cant be hacked!
+If your phone lacks NFC, you can use your friend's phone, this can not be hacked!
 
-#### Implications of our soultion;
+#### Implications of our solution and future work;
 
 You can secure your accounts with attestation and that restricts you to sending tokens only to other registered/attested account.
 
-You could also have a time limits on transactions that goes out of your country \(based on passport certification authority\).
+You could also have time limits on transactions that goes out of your country \(based on passport certification authority\).
 
 ---
 
@@ -108,7 +108,7 @@ You could also have a time limits on transactions that goes out of your country 
 
 ---
 
-#### Future work
+
 
 
 
