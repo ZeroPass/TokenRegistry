@@ -10,12 +10,12 @@ Repositories submitted \(will add them more later!\);
 • NFC SDK/android app; \(trid-token registry id\)  
 [https://github.com/ZeroPass/Android-trid](https://github.com/ZeroPass/Android-trid)
 
-We are hacking the passport hardware security module \(active authentication\), to provide us with valid signature on the passport itself \(the signature cant be spoofed, even if android phone  is compromised!\).  
+We are hacking the passport hardware security module \(active authentication\), to provide us with valid signature on the passport itself \(the signature can’t be spoofed, even if Android phone is compromised!\).  
 Documentation is nearly non-existent.
 
-We send the hashed Ethereum account address to the passport and receive back signature.
+We send the hashed Ethereum account address to the passport and receive back the signature.
 
-Then we are using a smartcontract to check the validity of that signature, and we write attestation of our ethereum account to the smarcontract itself. Account is the standard the ERC20 style contract with some additional functions\).
+After that we use a smart contract to check the validity of that signature, and we write the attestation of our Ethereum account to the smart contract itself. The account is a standard ERC20 style contract with some additional functions.
 
 That if everything goes according to plan.
 
@@ -31,7 +31,7 @@ That if everything goes according to plan.
 
 • build-it to the device.** **
 
-**Smartcontract is deployed on;**
+**Smart contract is deployed on;**
 
 [https://rinkeby.etherscan.io/address/0xee2ba50c1cbd227a035090d99dec587ae9efb3bc](https://rinkeby.etherscan.io/address/0xee2ba50c1cbd227a035090d99dec587ae9efb3bc)
 
@@ -41,11 +41,11 @@ That if everything goes according to plan.
 
 **2.\)** Type those 3 number groups in the app fields  \(we would implement camera scan if we had more time\)![](/assets/import.png)
 
-This is used to create the **BAC**  [https://en.wikipedia.org/wiki/Basic\_access\_control](https://en.wikipedia.org/wiki/Basic_access_control) negotiate a session key which is then used to encrypt challenge response communication between phone and passport. 
+This is used to create the **BAC**  [https://en.wikipedia.org/wiki/Basic\_access\_control](https://en.wikipedia.org/wiki/Basic_access_control) that negotiates a session key which is then used to encrypt challenge response communication between phone and passport.
 
-**3.\)** Touch the passport with nfc, that would sign the hash of ethereum public address
+**3.\)** Touch the passport with NFC, that would sign the hash of Ethereum public address
 
-**4.\)** Copy the signed data and transfer it to the [https://remix.ethereum.org/](https://remix.ethereum.org/) \(we would implement an api if we had more time\)
+**4.\)** Copy the signed data and transfer it to the [https://remix.ethereum.org/](https://remix.ethereum.org/) \(we would implement an API given more time\)
 
 **5.\)** Send the transaction
 
@@ -53,7 +53,7 @@ This is used to create the **BAC**  [https://en.wikipedia.org/wiki/Basic\_access
 
 this is all heavily experimental, opensource libraries are stubs with wrong information, docs are scarce and written for industry people. That was tough nut to crack in 2 days.
 
-We are sending the example passport data \(from our passport, precomputed\) to James. Its security risk, so we cant post it here, please check the slack. This data can then be imputed in the smart-contract directly.
+We are sending the example passport data \(from our passport, precomputed\) to James. It’s a security risk, so we cannot post it here, so please check the Slack. This data can then be imputed into the smart-contract directly.
 
 ---
 
