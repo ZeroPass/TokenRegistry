@@ -23,7 +23,18 @@ That if everything goes according to plan.
 
 ### How to install and run the code:
 
-/////to be added
+**For android app;**
+
+• Use the newest android studio \(with Gradle\), 
+
+• download code from Github, and import it
+
+• build-it to the device.** **
+
+  
+**Smartcontract is deployed on;**
+
+[https://rinkeby.etherscan.io/address/0xee2ba50c1cbd227a035090d99dec587ae9efb3bc](https://rinkeby.etherscan.io/address/0xee2ba50c1cbd227a035090d99dec587ae9efb3bc)
 
 
 
@@ -35,18 +46,16 @@ That if everything goes according to plan.
 
 This is used to create the **BAC**  [https://en.wikipedia.org/wiki/Basic\_access\_control](https://en.wikipedia.org/wiki/Basic_access_control) negotiate a session key which is then used to encrypt communication.
 
-**3.\)** Touch the passport with nfc, that would sign the hash of ethereum public address 
+**3.\)** Touch the passport with nfc, that would sign the hash of ethereum public address
 
-**4.\) **Copy the signed data and transfer it to the https://remix.ethereum.org/ \(we would implement an api if we had more time\)
+**4.\)** Copy the signed data and transfer it to the [https://remix.ethereum.org/](https://remix.ethereum.org/) \(we would implement an api if we had more time\)
 
 **5.\)** Send the transaction
 
-
-
 ### If things break;
 
-We are sending the example passport data \(from our passport, precomputed\) to James. Its security risk, so we cant post it here, please check the slack. This data can then be imputed in the smart-contract directly.
-
+We are sending the example passport data \(from our passport, precomputed\) to James. Its security risk, so we cant post it here, please check the slack. This data can then be imputed in the smart-contract directly.  
+  
 
 
 ---
