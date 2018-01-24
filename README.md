@@ -2,7 +2,10 @@
 
 FutureHack subbmission team[ ZeroPass](https://www.zeropass.io/)
 
-Repositories submitted \(will add them more later!\);
+Repositories submitted
+
+• Just tools   
+[https://github.com/ZeroPass/Web3Interface](https://github.com/ZeroPass/Web3Interface)
 
 • Smartcontract  
 [https://github.com/ZeroPass/Token-registry-smart-contract](https://github.com/ZeroPass/Token-registry-smart-contract)
@@ -95,6 +98,8 @@ You can secure your accounts with attestation and that restricts you to sending 
 
 You could also have time limits on transactions that goes out of your country \(based on passport certification authority\).
 
+Recovery function; 2 out of 3 passport attested trusted friends to unclock your tokens!
+
 ---
 
 ### Alternate uses of this opensource solution
@@ -107,8 +112,6 @@ You could also have time limits on transactions that goes out of your country \(
 • authentication
 
 ---
-
-
 
 
 
