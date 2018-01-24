@@ -4,7 +4,7 @@ FutureHack subbmission team[ ZeroPass](https://www.zeropass.io/)
 
 Repositories submitted
 
-• Just for tools \(trying to send array of HEX numbers... not really working, only takes ASCII\)    
+• Just for tools \(trying to send array of HEX numbers... not really working, only takes ASCII\)  
 [https://github.com/ZeroPass/Web3Interface](https://github.com/ZeroPass/Web3Interface)
 
 • Smartcontract  
@@ -48,17 +48,26 @@ This is used to create the **BAC**  [https://en.wikipedia.org/wiki/Basic\_access
 
 **3.\)** Touch the passport with NFC, that would sign the hash of Ethereum public address
 
-**4.\)** Copy the signed data and transfer it to the [https://remix.ethereum.org/](https://remix.ethereum.org/) \(we would implement an API given more time\)
+**4.\)**~~ Copy the signed data and transfer it to the ~~
 
-**5.\)** Send the transaction
+We finished the BAC protocol \(it works in app\), but some bug is stopping the signing command \(AA\) to execute. 
 
-### If things break;
-
-this is all heavily experimental, opensource libraries are stubs with wrong information, docs are scarce and written for industry people. That was tough nut to crack in 2 days.
-
-Things we didn
+**5.\)** go to [https://remix.ethereum.org/](https://remix.ethereum.org/) , and load the smartcontract 0xEE2Ba50c1CBD227A035090d99deC587Ae9EfB3bC  
 
 
+**6.\) **In function  checkAndSaveSignature paste the copied signed data \(ethereum address, sha1 of the address, pubkey from passport, passport signature, key\_exponent\)
+
+### But... things break:
+
+This is all heavily experimental, opensource libraries are stubs with wrong information, docs are scarce and written for industry people. That was tough nut to crack in 2 days. The app is basically finished but missing the the step 4 \(buggy AA command\).
+
+### Things we didn't finish
+
+• We finished the BAC protocol \(it works in app\), but some bug is preventing the signing command \(AA- active authentication\) to execute. We spend 16h on it, but there is still something we are missing \(maybe the session implementation we borrowed is buggy\). 
+
+•  trying to send HEX numbers didn't work, because function accept only string in ASCII format. We asked on the ethereum gitter, but nobody knew how to solve it.
+
+• trying to implement SHA1 on Solidity \(2 different implementations\). Asked mentors and Ethereum gitter, nobody know how to solve that either.
 
 ---
 
