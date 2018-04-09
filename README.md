@@ -57,13 +57,11 @@ We finished the BAC protocol \(it works in app\), but some bug is stopping the s
 
 **6.\) **In function  checkAndSaveSignature paste the copied signed data \(ethereum address, sha1 of the address, pubkey from passport, passport signature, key\_exponent\)
 
-### But... things break:
 
-This is all heavily experimental, opensource libraries are stubs with wrong information, docs are scarce and written for industry people. That was tough nut to crack in 2 days. The app is basically finished but missing the the step 4 \(buggy AA command\).
+
+This is all heavily experimental, opensource libraries are stubs with wrong information, docs are scarce and written for industry people. That was tough nut to crack in 2 days. 
 
 ### Things we didn't finish
-
-• We finished the BAC protocol \(it works in app\), but some bug is preventing the signing command \(AA- active authentication\) to execute. We spend 16h on it, but there is still something we are missing \(maybe the session implementation we borrowed is buggy\). 
 
 •  trying to send HEX numbers didn't work, because function accept only string in ASCII format. We asked on the ethereum gitter, but nobody knew how to solve it.
 
