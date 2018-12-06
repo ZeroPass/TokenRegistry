@@ -48,9 +48,7 @@ This is used to create the **BAC**  [https://en.wikipedia.org/wiki/Basic\_access
 
 **3.\)** Touch the passport with NFC, that would sign the hash of Ethereum public address
 
-**4.\)**~~ Copy the signed data and transfer it to the ~~
-
-We finished the BAC protocol \(it works in app\), but some bug is stopping the signing command \(AA\) to execute. 
+**4.\)** Copy the signed data 
 
 **5.\)** go to [https://remix.ethereum.org/](https://remix.ethereum.org/) , and load the smartcontract 0xEE2Ba50c1CBD227A035090d99deC587Ae9EfB3bC  
 
@@ -59,7 +57,7 @@ We finished the BAC protocol \(it works in app\), but some bug is stopping the s
 
 
 
-This is all heavily experimental, opensource libraries are stubs with wrong information, docs are scarce and written for industry people. That was tough nut to crack in 2 days. 
+This is all heavily experimental, opensource libraries are stubs with wrong information, docs are scarce and written for industry people. That was tough nut to crack in 3 days. 
 
 ### Things we didn't finish
 
